@@ -123,3 +123,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+------------
+
+
+
+![visitors](https://img.shields.io/badge/dynamic/json?color=badge&label=Thank%20you%20for%20visiting%20%28Since%20June%202022%29&query=value&url=https://api.countapi.xyz/hit/sangwin.react-student-management-demo/readme)
