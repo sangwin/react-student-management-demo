@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Student Management Demo In ReactJS",
   "private": true,
+  "homepage" : "https://blog.sangw.in/react-student-management",
   "author": {
     "name": "Sangwin Gawande (https://sangw.in)",
     "url": "https://sangw.in",
