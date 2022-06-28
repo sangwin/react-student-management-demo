@@ -7,6 +7,10 @@
 ### [Angular Version Demo (V13)](https://github.com/sangwin/Student-Management-Angular-13-CRUD)
 This project was generated with [ReactJS](https://reactjs.org) version 18.1.0.
 
+NOTE : Project's base URL is set to `/react-student-management`
+
+`basename={'/react-student-management'}` in `index.js` 
+And `package.json` as `"homepage" : "https://blog.sangw.in/react-student-management",`
 
 ## Feature list
 
