@@ -27,7 +27,7 @@ function Add() {
     const stdCtx = useContext(StudentContext);
     useEffect(() => {
         if (id) {
-            const index = stdCtx.list.findIndex(a => a.id === id);
+            const index = stdCtx.list.findIndex(a => a.id.toString() === id.toString());
             setStudent(stdCtx.list[index]);
         }
     }, [id, stdCtx.list])
@@ -45,7 +45,7 @@ function Add() {
 
     const handleInput = (event) => {
         if (event.target.id === 'phone') {
-            const phoneNum = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+            const phoneNum = /^\(?([0-9]{4})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
             setError((state) => ({
                 ...state,
                 [event.target.id]: !event.target.value.match(phoneNum)
